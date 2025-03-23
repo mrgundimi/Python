@@ -57,3 +57,84 @@ print("His Name is " + blessed_name)            # Adding Strings
 
 blessed_age = 4
 print("His Age is " + str(blessed_age))
+
+
+""" Getting User Input in Python:"""
+# name = input("What is your name?: ")
+# print(f"Hi {name} How are you doing?")
+
+# age = int(input("What is your age?: "))
+# print(f"You are {12 * age} months old")         # input always assumes type to be strings
+
+
+# user_name = input("What is your name? :")
+# print(f"Hello, {user_name}")
+
+# user_age = int(input("What is your age? :"))
+# age_in_months = user_age * 12
+# print(f"{user_name} is {age_in_months} months old")
+
+"""Booleans and Comparisions in Python:"""
+my_name = "Mike"
+are_you_mike = my_name == "Mike"
+print(are_you_mike)
+
+my_numbers = int(2)
+validate_number = my_numbers >= 5
+print(validate_number)
+
+
+"""AND & OR in Python:"""
+kid_name = "Ruel"
+child_name = ""
+
+null_list = []
+value_list = [1,2,3]
+
+null_int = 0
+value_int = 1
+
+print(bool(value_int))
+
+age_input = 18
+validate_eligible = int(age_input) >= int(18) and int(age_input) <= int(65)
+print(validate_eligible)
+
+select_fruit = "jackfruit"
+validate_fruit = select_fruit == "apple" or select_fruit == "mango"
+print(validate_fruit)
+
+"""Lists in Python: """
+my_numbers = [9, 12, 1988]
+print(my_numbers)
+print(my_numbers[1])
+
+date_of_birth = [
+    ["Ruthushree", 21121990],
+    ["Ruel", 18032021],
+    ["Michael", 9121988]
+]
+print(date_of_birth[2][1])
+
+date_of_birth.append(["Samson", 19111962])
+print(date_of_birth)
+
+date_of_birth.remove(["Ruel", 18032021])
+print(date_of_birth)
+
+date_of_birth.remove(date_of_birth[1])
+print(date_of_birth)
+
+"""Tuples in Python:"""
+my_tuple = ("st paul's", "RLS", "SCTIT")
+#print(my_tuple.append("Envestnet"))
+print(my_tuple + ("Envestnet",))
+
+
+"""Sets in Python:"""
+
+"""Dictionaries in Python:"""
+
+"""Length and sum:"""
+
+"""Joining a List:"""
